@@ -5,7 +5,7 @@ import java.util.List;
 
 public class JumpGame {
 	public static void main(String[] args) {
-		int[] nums = {2,1,1,0};
+		int[] nums = {2,0,0,0};
 		System.out.println(canJump(nums));
 	}
 	
