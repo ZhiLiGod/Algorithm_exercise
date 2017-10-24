@@ -1,12 +1,12 @@
 package com.leetcode.exercise;
 
 public class Select {
-	public static int[] arr = {10,8,12,5,20};
+	public static int[] arr = {0, 10, 5, 20, 1, 0};
 	public static void main(String[] args) {
 		int[] nums = {1,2,3,6,5,10};
-		select(arr);
-		//quicksort(arr, 0, arr.length-1);
-		//print(arr);
+		//select(arr);
+		quicksort(arr, 0, arr.length-1);
+		print(arr);
 		//insertsort(arr);
 	}
 	
