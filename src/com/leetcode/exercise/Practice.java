@@ -5,15 +5,15 @@ import java.util.List;
 
 public class Practice {
 	
-	static int[] arr = {0, 10, 5, 20, 1, 0};
+	static int[] arr = {5,4,8,3,2,1};
 	static int[] arr1 = new int[arr.length];
 	public static void main(String[] args) {
 		//System.out.println(permutation("abc"));
 		//bubblesort(arr);
 		//select(arr);
 		//insert(arr);
-		//quick(arr, 0, arr.length-1);
-		separate(arr, arr1, 0, arr.length-1);
+		quick(arr, 0, arr.length-1);
+		//separate(arr, arr1, 0, arr.length-1);
 		for(Integer i : arr){
 			System.out.print(i+ " ");
 		}
